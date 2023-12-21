@@ -24,6 +24,18 @@ public class Usuario implements Serializable {
         this.password = password;
     }
 
+    public Usuario(String email, String password, String firstName, String lastName) {
+        this.email = email;
+        this.password = password;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+
     public String getEmail() {
         return email;
     }
