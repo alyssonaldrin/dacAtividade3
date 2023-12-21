@@ -1,3 +1,3 @@
-#Equipe
+# Equipe
 
 Alysson Aldrin Barreto Bezerra
